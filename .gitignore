@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#vscode
+# VS Code — block personal/machine-specific settings
+.vscode/*
+
+# But allow the shared interpreter config
+!.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# OS
+.DS_Store
