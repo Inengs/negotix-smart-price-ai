@@ -1,6 +1,6 @@
 # SmartPrice AI
 
-> Smart pricing for every hustle — a hackathon project
+> The smart way to price and profit
 
 ## Team
 
