@@ -20,6 +20,7 @@ jobs:
             - run: pip install uv
             - run: uv sync
             - run: uv run pytest tests/ -v
+            - run: uv run pytest tests/ -v --ignore=tests/ || true
 
     frontend:
         runs-on: ubuntu-latest
